@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /** 
+ * 方法引用
  * 
+ * 作用：减少冗余代码，使代码变的更加简洁紧凑
  *
  * @author  周云
  * @version 2019年5月7日
