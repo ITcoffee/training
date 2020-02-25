@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 /** 
  * Stream
  *
- * 作用：极大提高Java程序员的生产力，让程序员写出高效率、干净、简洁的代码
+ * 作用：极大提高生产力，写出高效率、干净、简洁的代码
  * 
  * @author  周云
  * @version 2019年5月7日
