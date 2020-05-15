@@ -50,4 +50,13 @@ public class DateTest {
     	c.setTime(date);
     	return c.get(Calendar.DATE);
     }
+    
+    
+    public int lastBox(int n) {
+    	if (n <= 0) {
+    		return 0;
+    	}
+    	
+    	
+    }
 }
