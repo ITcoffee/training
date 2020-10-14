@@ -24,6 +24,7 @@ public class NodeTest {
 		System.out.println();
 	}
 	
+	// 构建数结构
 	public static void create(int[] data, List<Node> list) {
 
 		//将数组里面的东西变成节点的形式
