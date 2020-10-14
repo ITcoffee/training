@@ -10,7 +10,7 @@ import java.util.List;
  * @author  周云
  * @version 2020年9月1日
  */
-public class SSS {
+public class XOR {
 	    
 	    public static Integer[] xorQueries(int[] arr, int[][] queries) {
 	        if (arr == null) {
