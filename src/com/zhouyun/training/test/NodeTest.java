@@ -12,7 +12,7 @@ import java.util.List;
 public class NodeTest {
 	
 	public static void main(String[] args) {
-		int[] data = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int[] data = {0, 1, 2, 3, 4, 5, 6, 7, 8};
 		List<Node> list = new ArrayList<Node>();
 		create(data, list);
 		
