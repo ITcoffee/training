@@ -20,7 +20,7 @@ public class XOR {
             return null;
         }
         
-        List result = new ArrayList<Integer>();
+        List<Integer> result = new ArrayList<Integer>();
         for (int i = 0; i < queries.length; i++) {
             int[] querie = queries[i];
             if (querie.length != 2) {
