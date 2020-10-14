@@ -1,5 +1,7 @@
 package com.zhouyun.training.algorithm.sort;
 
+import java.util.Arrays;
+
 /** 
  * 归并排序
  *
@@ -54,6 +56,8 @@ public class MergerSort {
 		for (int i = 0; i < newNums2.length; i++) {
 			System.out.print(newNums2[i] + " ");
 		}
+		
+		System.out.println(Arrays.toString(newNums2));
 		
 	}
 
