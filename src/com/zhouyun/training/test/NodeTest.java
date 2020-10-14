@@ -28,20 +28,20 @@ public class NodeTest {
 	public static void create(int[] data, List<Node> list) {
 
 		//将数组里面的东西变成节点的形式
-		for(int i=0; i<data.length; i++) {
+		for(int i = 0; i < data.length; i++) {
 			Node node = new NodeTest().new Node(data[i]);
 			list.add(node);
 		}
 		
 		//节点关联成树
-		for(int index = 0; index<list.size() / 2 - 1; index++) {
+		for(int index = 0; index < list.size() / 2 - 1; index++) {
 			//编号为n的节点他的左子节点编号为2*n 右子节点编号为2*n+1 但是因为list从0开始编号，所以还要+1
 			list.get(index).setLeft(list.get(index * 2 + 1));
 			list.get(index).setRight(list.get(index * 2 + 2));
 		}
 		
 		//单独处理最后一个父节点 ,list.size() / 2 - 1进行设置，避免单孩子情况
-		int index=list.size() / 2 - 1;
+		int index = list.size() / 2 - 1;
 		list.get(index).setLeft(list.get(index * 2 + 1));
 		//如果有奇数个节点，最后一个父节点才有右子节点
 		if(list.size() % 2 == 1) {
