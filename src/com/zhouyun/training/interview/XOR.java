@@ -20,10 +20,9 @@ public class XOR {
 	            return null;
 	        }
 	        
-	        int rowNum = queries.length;
 	        
 	        List result = new ArrayList<Integer>();
-	        for (int i = 0; i < rowNum; i++) {
+	        for (int i = 0; i < queries.length; i++) {
 	            int[] querie = queries[i];
 	            if (querie.length != 2) {
 	                break;
