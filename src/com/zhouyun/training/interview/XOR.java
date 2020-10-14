@@ -35,11 +35,11 @@ public class XOR {
             result.add(xor(Arrays.copyOfRange(arr, querie[0], querie[1] + 1)));
         }
         
-        return (Integer[]) result.toArray();
+        return result.toArray(new Integer[0]);
         
     }
     
-    private static int xor(int[] arr) {
+	private static int xor(int[] arr) {
         if (arr.length == 1) {
             return arr[0];
         } else if (arr.length == 2) {
@@ -55,6 +55,6 @@ public class XOR {
         //System.out.println(a);
         int[] arr = {1, 3, 4, 8};
         int[][] queries = {{0, 1}, {1, 2}, {0, 3}, {3, 3}};
-        System.out.println(xorQueries(arr, queries));
+        System.out.println(Arrays.toString(xorQueries(arr, queries)));
     }
 }
